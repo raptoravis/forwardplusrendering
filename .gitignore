@@ -5,7 +5,9 @@
 *.slo
 *.lo
 *.o
-*.obj
+#*.obj
+#*.lib
+#*.dll
 
 # Precompiled Headers
 *.gch
