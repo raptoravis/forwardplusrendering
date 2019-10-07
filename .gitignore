@@ -14,7 +14,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -24,14 +23,13 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
 
-\build
+build/win64
 
 thirdparty/boost_1_70_0/bin.v2
 thirdparty/boost_1_70_0/stage
@@ -40,8 +38,9 @@ thirdparty/boost_1_70_0/libs/config/checks/architecture/bin/
 thirdparty/boost_1_70_0/libs/math/dot_net_example/distribution_explorer/obj/
 thirdparty/boost_1_70_0/tools/build/src/engine/bin.ntx86/
 thirdparty/boost_1_70_0/tools/build/src/engine/bootstrap/
+thirdparty/boost_1_70_0/bootstrap.log 
 
 *.assbin
 
 assimp.log
- 
+
